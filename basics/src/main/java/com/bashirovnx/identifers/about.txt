@@ -1,0 +1,91 @@
+// Types of Identifiers in Java
+
+1. Class names: Identifiers used to name classes. They must begin with an uppercase letter and follow camel case convention.
+
+Example:
+public class MyClass {
+    // class body
+}
+
+2. Method names: Identifiers used to name methods within a class. They must begin with a lowercase letter and follow camel case convention.
+
+Example:
+public void myMethod() {
+    // method body
+}
+
+3. Variable names: Identifiers used to name variables within a method or class. They must begin with a lowercase letter and follow camel case convention.
+
+Example:
+int myVariable = 42;
+
+4. Constant names: Identifiers used to name constants. They must be written in all uppercase letters, with words separated by underscores.
+
+Example:
+public static final int MAX_VALUE = 100;
+
+5. Package names: Identifiers used to name Java packages. They must be written in all lowercase letters, with words separated by dots.
+
+Example:
+package com.example.myproject;
+
+6. Interface names: Identifiers used to name Java interfaces. They must begin with an uppercase letter and follow camel case convention.
+
+Example:
+public interface MyInterface {
+    // interface body
+}
+
+7. Enum names: Identifiers used to name Java enumerated types. They must follow the same rules as class names.
+
+Example:
+public enum DayOfWeek {
+    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+-----------------------
+
+Identifier Naming Requirements:
+
+1. All identifiers (variable names, method names, class names, etc.) should be meaningful and descriptive.
+
+2. Identifiers should be written in camel case, starting with a lowercase letter.
+
+3. Variable names should be in the form of a noun or noun phrase, while method names should be in the form of a verb or verb phrase.
+
+4. Class names should be in the form of a noun or noun phrase, starting with an uppercase letter.
+
+5. Constants should be written in all uppercase letters, with words separated by underscores.
+
+6. Avoid using abbreviations or acronyms unless they are well-known or commonly used.
+
+7. Avoid using single-letter variable names or method names unless they are used in a very limited scope (e.g., a loop counter).
+
+8. Avoid using reserved keywords as identifiers.
+
+9. Use meaningful and descriptive names for parameters in method declarations.
+
+10. Use consistent naming conventions throughout the program.
+
+Example of Valid Identifier Names:
+
+int age;
+String firstName;
+double hourlyRate;
+boolean isEmployed;
+
+Example of Not Valid Identifier Names:
+
+int 123age; // identifier cannot start with a number
+String full name; // identifier cannot have spaces
+double 2hourlyRate; // identifier cannot start with a number
+boolean is_Employed; // identifier cannot contain special characters (except underscore)
+
+Example of Not Recommended Identifier Names:
+
+int a; // identifier should be more descriptive than a single letter
+String str; // identifier should be more descriptive than a shortened word
+double hr; // identifier should be more descriptive than an abbreviation
+boolean emp; // identifier should be more descriptive than an abbreviation
+
+
