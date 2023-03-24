@@ -1,0 +1,22 @@
+byte: 1 byte
+short: 2 bytes
+int: 4 bytes
+long: 8 bytes
+float: 4 bytes
+double: 8 bytes
+char: 2 bytes
+boolean: 1 byte
+
+For example, the byte data type in Java uses 8 bits, so its range can be calculated as:
+
+Range = 2^(8 - 1) = 2^7 = 128
+
+Similarly, the range for other data types can be calculated as follows:
+
+short: 2^(16-1) = 2^15 = -32,768 to 32,767
+int: 2^(32-1) = 2^31 = -2,147,483,648 to 2,147,483,647
+long: 2^(64-1) = 2^63 = -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float: 2^(32-1) = 2^31 (same as int), but the precision is limited
+double: 2^(64-1) = 2^63 (same as long), but the precision is limited
+char: 0 to 65,535 (unsigned)
+boolean: true or false (no range)
